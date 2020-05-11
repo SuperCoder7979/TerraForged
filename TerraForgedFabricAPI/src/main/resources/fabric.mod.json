@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "terraforgedfabricapi",
+  "version": "0.1.0",
+
+  "name": "Terraforged Fabric API",
+  "description": "",
+  "authors": [
+    "TerraForged"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "accessWidener" : "terraforgedfabricapi.accesswidener",
+
+  "license": "MIT",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.terraforged.fabricapi.TerraforgedFabricAPI"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.0",
+    "fabric": "*"
+  },
+
+  "suggests": {
+  }
+}
